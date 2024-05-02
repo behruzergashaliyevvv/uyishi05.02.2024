@@ -31,16 +31,6 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   int _selectedIndex = 0;
 
-  static List<Widget> _widgetOptions = <Widget>[
-    AboutMePage(),
-    WorkExperiencePage(),
-    EducationPage(),
-    SkillPage(),
-    LanguagePage(),
-    AppreciationPage(),
-    ResumePage(),
-  ];
-
   void _onItemTapped(int index) {
     setState(() {
       _selectedIndex = index;
